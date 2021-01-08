@@ -1,11 +1,9 @@
+/* eslint-disable no-magic-numbers */
+
 'use strict';
 
 var implementation = require('./implementation');
 
 module.exports = function getPolyfill() {
-	if (true) {
-		return implementation;
-	}
-
-	return Reflect.apply;
+	return (typeof Reflect === 'object' && Reflect.apply) || implementation;
 };

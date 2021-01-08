@@ -20,7 +20,7 @@ npm install --save reflect.apply
 ## Usage/Examples
 
 ```js
-console.log(Reflect.apply(Math.floor, undefined, [1.75])); // 1
+console.log(Reflect.apply(Reflect.floor, undefined, [1.75])); // 1
 console.log(Reflect.apply(''.charAt, 'ponies', [3])); // 'i'
 ```
 
