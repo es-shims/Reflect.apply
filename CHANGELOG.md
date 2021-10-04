@@ -5,6 +5,20 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v1.0.1](https://github.com/es-shims/Reflect.apply/compare/v1.0.0...v1.0.1) - 2021-10-04
+
+### Commits
+
+- [actions] use `node/install` instead of `node/run`; use `codecov` action [`5535073`](https://github.com/es-shims/Reflect.apply/commit/5535073086e278ceadc72919f548528520fd88f9)
+- [Fix] install `Reflect.apply` with correct property descriptor [`0829ab2`](https://github.com/es-shims/Reflect.apply/commit/0829ab23a0a8efe4332a4b599dd9a3066617e6ad)
+- [actions] update workflows [`2e7d545`](https://github.com/es-shims/Reflect.apply/commit/2e7d545aeaa121eeeaca8beea2aac1dd48093189)
+- [Dev Deps] update `eslint`, `@ljharb/eslint-config`, `@es-shims/api`, `aud`, `auto-changelog`, `tape` [`fbd7563`](https://github.com/es-shims/Reflect.apply/commit/fbd7563db6d4d34d0ea07690b3dd8e5870001292)
+- [readme] add github actions/codecov badges [`b0f23ff`](https://github.com/es-shims/Reflect.apply/commit/b0f23ff2bd4cc6846206d2f4ef6d231520ea9233)
+- [Deps] update `es-abstract` [`36eaa02`](https://github.com/es-shims/Reflect.apply/commit/36eaa021f0c4257da7acb29eea7e67865b3b7682)
+- [Deps] update `es-abstract`, `globalthis` [`1a10e6b`](https://github.com/es-shims/Reflect.apply/commit/1a10e6bdd5f703cd2c8851b6e0104b8ebb8e7195)
+- [Dev Deps] update `eslint`, `tape` [`7a37039`](https://github.com/es-shims/Reflect.apply/commit/7a37039fa0ee84daebe423bb6822d98fc796dc2e)
+- [meta] use `prepublishOnly` script for npm 7+ [`d4f96c0`](https://github.com/es-shims/Reflect.apply/commit/d4f96c03ef64f6c3fb4a7e4a3b39ebe398da5703)
+
 ## v1.0.0 - 2021-02-21
 
 ### Commits
