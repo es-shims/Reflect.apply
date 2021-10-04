@@ -11,6 +11,8 @@
 		"new-cap": [2, {
 			"capIsNewExceptions": [
 				"Call",
+				"CreateMethodProperty",
+				"DefinePropertyOrThrow",
 			],
 		}],
 		"no-magic-numbers": [2, {
