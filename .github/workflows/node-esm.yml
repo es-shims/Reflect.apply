@@ -8,12 +8,14 @@ jobs:
     runs-on: ubuntu-latest
 
     strategy:
+      fail-fast: false
       matrix:
-        node-version:
-          - 'lts/*'
-          - '14.13'
-          - '13.7'
-          - '12.17'
+        include:
+          - node-version: 'lts/*'
+          - node-version: '14.13'
+          - node-version: '13.7'
+          - node-version: '12.20'
+          - node-version: '12.17'
 
     steps:
       - uses: actions/checkout@v2
