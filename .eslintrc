@@ -24,12 +24,6 @@
 
 	"overrides": [
 		{
-			"files": "**/*.mjs",
-			"rules": {
-				"no-restricted-exports": 0,
-			},
-		},
-		{
 			"files": "test/**/*",
 			"rules": {
 				"max-lines-per-function": 0,
