@@ -1,5 +1,3 @@
-/* eslint-disable no-magic-numbers */
-
 'use strict';
 
 var implementation = require('./implementation');

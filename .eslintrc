@@ -19,7 +19,6 @@
 			"ignore": [-1, 0, 1, 2]
 		}],
 		"no-negated-condition": 0,
-		"operator-linebreak": [2, "before"],
 	},
 
 	"overrides": [
