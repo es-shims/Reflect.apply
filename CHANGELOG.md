@@ -5,6 +5,15 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v1.0.2](https://github.com/es-shims/Reflect.apply/compare/v1.0.1...v1.0.2) - 2021-12-04
+
+### Commits
+
+- [actions] reuse common workflows [`71b00c6`](https://github.com/es-shims/Reflect.apply/commit/71b00c6398b21764a28877b8d8e140a0052a5129)
+- [Refactor] remove unnecessary ESM files [`aebbd68`](https://github.com/es-shims/Reflect.apply/commit/aebbd680828c4689608b43a779112c27c0ea365e)
+- [Dev Deps] update `eslint`, `@ljharb/eslint-config`, `@es-shims/api`, `reflect.ownkeys`, `safe-publish-latest`, `tape` [`170c477`](https://github.com/es-shims/Reflect.apply/commit/170c477c83dad309c7ee844d5eadbf9f9ca13fd5)
+- [actions] update codecov uploader [`c13a9f4`](https://github.com/es-shims/Reflect.apply/commit/c13a9f45866a0eb2cab710c7dcaddc088988b8b4)
+
 ## [v1.0.1](https://github.com/es-shims/Reflect.apply/compare/v1.0.0...v1.0.1) - 2021-10-04
 
 ### Commits
