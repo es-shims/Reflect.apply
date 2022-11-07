@@ -5,6 +5,16 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v1.0.3](https://github.com/es-shims/Reflect.apply/compare/v1.0.2...v1.0.3) - 2022-11-07
+
+### Commits
+
+- [meta] fix package.json indentation [`1e3bab0`](https://github.com/es-shims/Reflect.apply/commit/1e3bab021a23b11a347f690ec92c15aefd6164f2)
+- [meta] use `npmignore` to autogenerate an npmignore file [`13abbae`](https://github.com/es-shims/Reflect.apply/commit/13abbae3ee2c22a9dd52233e9f80f7a6bff5d399)
+- [Dev Deps] update `eslint`, `@ljharb/eslint-config`, `aud`, `auto-changelog`, `functions-have-names`, `tape` [`b84eff3`](https://github.com/es-shims/Reflect.apply/commit/b84eff3c70210de953655947365460abce8284d0)
+- [Deps] update `define-properties`, `es-abstract`, `globalthis` [`9cf06cd`](https://github.com/es-shims/Reflect.apply/commit/9cf06cd1d732ed02fd913b045e621c043bbfcda1)
+- [actions] update rebase action to use reusable workflow [`7fd9286`](https://github.com/es-shims/Reflect.apply/commit/7fd92860376f6d301bb1e52abb9e1f614c61846a)
+
 ## [v1.0.2](https://github.com/es-shims/Reflect.apply/compare/v1.0.1...v1.0.2) - 2021-12-04
 
 ### Commits
