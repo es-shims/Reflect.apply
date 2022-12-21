@@ -1,22 +1,15 @@
 'use strict';
 
 var CreateMethodProperty = require('es-abstract/2022/CreateMethodProperty');
-var DefinePropertyOrThrow = require('es-abstract/2022/DefinePropertyOrThrow');
 var globalThis = require('globalthis')();
+var setToStringTag = require('es-set-tostringtag');
 
 var getPolyfill = require('./polyfill');
 
 module.exports = function shimReflectApply() {
 	if (typeof Reflect === 'undefined') {
 		var R = {};
-		if (typeof Symbol === 'function' && Symbol.toStringTag) {
-			DefinePropertyOrThrow(R, Symbol.toStringTag, {
-				'[[Configurable]]': true,
-				'[[Enumerable]]': false,
-				'[[Value]]': 'Reflect',
-				'[[Writable]]': false
-			});
-		}
+		setToStringTag(R, 'Reflect');
 		CreateMethodProperty(globalThis, 'Reflect', R);
 	}
 
