@@ -5,6 +5,14 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v1.0.4](https://github.com/es-shims/Reflect.apply/compare/v1.0.3...v1.0.4) - 2022-12-21
+
+### Commits
+
+- [Refactor] use `es-set-tostringtag` [`d220986`](https://github.com/es-shims/Reflect.apply/commit/d22098658cfbc9366c57201a9bb848fc4b5da36e)
+- [Dev Deps] update `aud`, `reflect.ownkeys` [`f98afbe`](https://github.com/es-shims/Reflect.apply/commit/f98afbeed616784a36210b186e7bc913bb373c97)
+- [Deps] update `es-abstract` [`d107672`](https://github.com/es-shims/Reflect.apply/commit/d1076729f601a4c1c6eb704df1c22b1143bf6eca)
+
 ## [v1.0.3](https://github.com/es-shims/Reflect.apply/compare/v1.0.2...v1.0.3) - 2022-11-07
 
 ### Commits
