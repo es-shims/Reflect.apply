@@ -1,6 +1,6 @@
 'use strict';
 
-var CreateMethodProperty = require('es-abstract/2022/CreateMethodProperty');
+var CreateMethodProperty = require('es-abstract/2023/CreateMethodProperty');
 var globalThis = require('globalthis')();
 var setToStringTag = require('es-set-tostringtag');
 
