@@ -5,6 +5,13 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v1.0.5](https://github.com/es-shims/Reflect.apply/compare/v1.0.4...v1.0.5) - 2023-08-29
+
+### Commits
+
+- [Dev Deps] update `@es-shims/api`, `@ljharb/eslint-config`, `aud`, `reflect.ownkeys`, `tape` [`8eeadaa`](https://github.com/es-shims/Reflect.apply/commit/8eeadaaff3d781a67d38ce52df71019a0d9af215)
+- [Deps] update `define-properties`, `es-abstract`, `es-set-tostringtag` [`61fdcd2`](https://github.com/es-shims/Reflect.apply/commit/61fdcd2fba6da1664f8ad85620c388d5fad1e619)
+
 ## [v1.0.4](https://github.com/es-shims/Reflect.apply/compare/v1.0.3...v1.0.4) - 2022-12-21
 
 ### Commits
